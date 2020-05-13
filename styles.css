@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.cronometro {
+    background-color: black;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
+
+#contador {
+    width: 500px;
+    height: 300px;
+    background: rgb(255, 136, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 500px;
+}
+
+.cronometro p {
+    font-size: 130px;
+}
+
+#start, #stop, #restart {
+    font-size: 30px;
+    width: 160px;
+    height: 70px;
+    transition: 0.2s;
+    margin: 30px 20px 0 0;
+}
+
+#start:hover, #stop:hover, #restart:hover {
+    opacity: 70%;
+}
+
+#start {
+    background: green;
+}
+
+#stop {
+    background: red;
+}
+
+#restart {
+    background: yellow;
+    margin-right: 0;
+}
