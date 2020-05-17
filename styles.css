@@ -1,3 +1,8 @@
+@font-face {
+    font-family: relogio;
+    src: url(public/fonts/DS-DIGI.TTF)
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -29,10 +34,8 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 500px;
-}
-
-.cronometro p {
-    font-size: 130px;
+    font-family: relogio;
+    font-size: 120px;
 }
 
 #start, #stop, #restart {
